@@ -1,0 +1,1 @@
+We’ll build a live app for a powerful sentiment analysis model. This model can take any sentence you give it and tell you if it’s POSITIVE or NEGATIVE. We’ll utilize the impressive Transformers library from Hugging Face to obtain a state-of-the-art model without requiring any training.
