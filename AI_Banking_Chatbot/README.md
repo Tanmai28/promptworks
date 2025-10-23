@@ -1,1 +1,2 @@
-Developed an intelligent chatbot using AWS Lex and Lambda to handle banking queries, fetch account balances, and maintain conversational context.
+#### In this project, I am creating a chatbot called **BankerBot**, designed for an imaginary banking service. This bot will greet users and be ready to handle conversations through voice or text.
+
