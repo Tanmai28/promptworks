@@ -1,5 +1,5 @@
 ## Connect Amazon Lex with Lambda
-          - The goal is to get BankerBot to check users' bank account balance and return a random bank balance.
+         - The goal is to get BankerBot to check users' bank account balance and return a random bank balance.
                  
 ### STEP 1: **Create Your AWS Lambda Function**
 
