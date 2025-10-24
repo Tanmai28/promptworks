@@ -1,6 +1,9 @@
-## Recommender system 
+## Personalized Book Recommender System
 
-Recommender systems or recommendation systems, are software engines designed to suggest items to users depending on previous likes, dislikes, interests, product engagement and interaction,etc.
+
+
+
+**Recommender systems or recommendation systems**, are software engines designed to suggest items to users depending on previous likes, dislikes, interests, product engagement and interaction,etc.
 Recommender systems keep users interested in the sites.
 
 **Why Recommender Systems?**
@@ -10,29 +13,52 @@ Recommender systems keep users interested in the sites.
 
 **Types of Recommender systems**
  1. **Popularity based recommender system**
+    
       Concept: Recommends items that are most popular among users — typically those with the highest ratings, most purchases, or most views.
+    
       Example: A streaming platform showing “Top 10 trending movies.
+    
       Pros: Simple to implement, no need for user history.
+    
       Cons: Lacks personalization — every user sees the same recommendations.
- 3. **Content based recommender system**
+    
+ 2. **Content based recommender system**
+    
       Concept: Recommends items similar to those the user has liked in the past, based on item features (keywords, genres, descriptions, etc.).
+    
       Example: If a user watches several sci-fi movies, the system recommends other sci-fi titles.
+    
       Pros: Personalized; works even for new users (if they’ve rated a few items).
+    
       Cons: Limited to known preferences; can’t easily suggest items outside the user’s typical interests (“serendipity problem”).
- 4. **Collaborative filtering system**
+    
+ 3. **Collaborative filtering system**
+    
       Concept: Uses the behavior and preferences of many users to recommend items.
+    
             User-based: Finds users with similar tastes and recommends what they liked.
+    
             Item-based: Finds items that are liked by similar users.
+    
       Example: “People who liked this also liked...” on e-commerce sites.
+    
       Pros: Doesn’t require item features; captures collective trends.
+    
       Cons: Suffers from the cold start problem (new users or items with no data).
- 5. **Hybrid recommender system**
+    
+ 4. **Hybrid recommender system**
+    
       Concept: Combines two or more recommendation techniques (e.g., collaborative + content-based) to improve accuracy.
+    
       Example: Netflix uses both content features (movie genres, cast) and user behavior (ratings, watch history).
+    
       Pros: Balances strengths and weaknesses of different methods; reduces cold start and bias issues.
+    
       Cons: More complex to design and tune.
+    
 
-**How are these used in the project?** -
+### **How are these used in the project?** -
+
 
 **Popularity Based Recommender system**-
 
@@ -59,9 +85,23 @@ Using Book Recomendation Dataset from kaggle. This dataset has 3 main Files: 1. 
 ![WhatsApp Image 2025-10-17 at 17 14 51_78f99550](https://github.com/user-attachments/assets/256023df-2b8a-4b51-8fb6-f788926d0a0a)
 
 
-Deployement:
+**About the Files:**
+ 1. `Data.zip` - Contains the csv Data files (Books,Users,Ratings) required for the project.
+ 2. `Recommender.ipynb` - Contains the code for building recommender system.
+ 3. `app.py` - Contains the code for building the streamlit application.
+ 4. `Final_code_b2.ipynb` - contains the code for Book Recommendation, Colaborative filtering and pickling of data
+ 5. `popular.pkl`,`pt.pkl`,`similarity_scores.pkl`,`Books.pkl` - Contains the pickled data
+
+
+
+**Deployement:**
 
 The deployment consists of :
 1. Data used section
 2. Top 50 recommendations
 3. 5 similar Book Recomendations
+
+
+**The final Recommeder system on streamlit looks like:**
+
+<img width="1916" height="884" alt="image" src="https://github.com/user-attachments/assets/99073388-cc5e-45a7-9615-51c6328ad2c1" />
