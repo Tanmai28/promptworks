@@ -20,6 +20,9 @@ This repo serves as my personal research & development space — where ideas evo
 1. Building a LLM from scratch
 2. Caption matching AI system
 3. Powerful Sentiment analysis model
+4. Document Analysis using LLMs
+5. Personalized Book Recommendation System
+6. AI Banking ChatBot
 
 
 > 💡 Each folder includes code, notebooks, and documentation for its respective project.
